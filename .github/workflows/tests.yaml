@@ -43,7 +43,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: neonlabsorg/yearn-vaults
+          images: neonlabsorg/yearn_tests:test
 
       - uses: docker/build-push-action@v3
         with:
